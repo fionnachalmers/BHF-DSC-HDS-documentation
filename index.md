@@ -11,7 +11,7 @@ This is the homepage - add description.
 > Testing warnings - please note....
 
  
-## Site logo
+## Title
 
 ```yaml
 date_of_birth_multisource()
@@ -21,6 +21,11 @@ Description
 
 {: .note }
 This is an important note
+
+
+`code`
+
+
 
 ----
 
