@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/insights
 ---
 
-# Data Inisighs
+# Data Insights
 
 Description...
 {: .fs-6 .fw-300 }
