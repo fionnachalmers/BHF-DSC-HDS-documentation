@@ -8,8 +8,6 @@ aux_links:
   BHF DSC GitHub: https://github.com/BHFDSC
 
 
-  color_scheme: nil
-
 callouts_level: quiet # or loud
 callouts:
   highlight:
