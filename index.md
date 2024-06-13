@@ -1,6 +1,9 @@
 ---
+layout: default
 title: Home
-layout: home
+nav_order: 1
+description: "ghgjhgjg"
+permalink: /
 ---
 
 This is the homepage - add description.
