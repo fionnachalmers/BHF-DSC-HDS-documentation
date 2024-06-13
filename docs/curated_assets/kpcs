@@ -5,16 +5,7 @@ parent: Curated Assets
 nav_order: 1
 ---
 
-# Typography
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
+# Test
 
 ## Font stack
 
@@ -23,12 +14,6 @@ By default, Just the Docs uses a native system font stack for sans-serif fonts:
 ```scss
 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Segoe UI Emoji"
 ```
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-{: .fs-5 .ls-10 .code-example }
-
-For monospace type, like code snippets or the `<pre>` element, Just the Docs uses a native system font stack for monospace fonts:
 
 ```scss
 "SFMono-Regular", Menlo, Consolas, Monospace
@@ -53,5 +38,7 @@ Just the Docs uses a responsive type scale that shifts depending on the viewport
 | `h5`, `.text-epsilon` | 16px                             | 18px                          |
 | `h6`, `.text-zeta`    | 18px                             | 24px                          |
 | `body`                | 14px                             | 16px                          |
+
+
 
 ---
