@@ -4,6 +4,7 @@ title: Key Patient Characteristics
 parent: Curated Assets
 nav_order: 1
 has_children: true
+permalink: /docs/curated_assets/kpcs
 ---
 
 # Test
