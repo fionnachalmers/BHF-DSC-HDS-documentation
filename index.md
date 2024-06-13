@@ -8,7 +8,7 @@ This is the homepage - add description.
 {: .warning }
 > Testing warnings
 
-
+ 
 ## Site logo
 
 ```yaml
