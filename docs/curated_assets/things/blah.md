@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Blah
-parent: Things
+title: ghhads
+parent: Blah
 nav_order: 1
 ---
 
