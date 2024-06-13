@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configuration
+title: Key Patient Characteristics
 nav_order: 2
 ---
 
