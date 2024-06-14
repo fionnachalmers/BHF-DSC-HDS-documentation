@@ -13,11 +13,11 @@ Jump to our [quick-start]({% link docs/curated_assets/kpcs_how_to_use.md %}) gui
 
 ## Motivation
 
-The key patient characteristics (kpc's) curated assets are a new **monthly** curated asset that have been developed to meet the need for a standardised demographics table that is accessible and usable by all projects. You may want to use these assets as part of your project pipeline or for exploratory data analyses purposes.
+The key patient characteristics (kpc's) tables are **monthly** curated assets that have been developed to meet the need for a standardised demographics table that is accessible and usable by all projects. You may want to use these assets as part of your project pipeline or for exploratory data analyses purposes.
 
 Previously, kpc's could be curated using:
 
-* NHS Data Wranglers curated asset tables: curr301_patient_skinny_unassembled & curr302_patient_skinny_record. These tables are no longer maintained.
+* NHS Data Wranglers curated asset tables: curr301_patient_skinny_unassembled & curr302_patient_skinny_record. These tables are no longer maintained, or
 
 * BHF DSC HDS common functions: key_patient_characteristics_harmonise & key_patient_characteristics_select. These functions were run by every project in every pipeline.
 
@@ -33,7 +33,7 @@ The above functions are run at a population wide level which is a lot of compute
 
 * **Individual tables** - curated for each patient characteristic as at each provisioning month. It is curated from the multisource table by applying a HDS selection algorithm. The algorithm selects one record per characteristic per person (one row per person).
 
-* **Demographics table** - brings together the individual tables into one demographics table. 
+* **Demographics table** - brings together individual tables into one demographics table. 
 
 
 ## Characteristics of Interest
