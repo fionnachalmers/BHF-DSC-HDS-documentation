@@ -8,5 +8,4 @@ permalink: /docs/curated_assets
 
 # Curated Assets
 
-Description of what curated assets are.
-{: .fs-6 .fw-300 }
+HDS curated assets introduction.
