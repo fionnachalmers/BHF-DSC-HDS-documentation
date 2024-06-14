@@ -17,8 +17,6 @@ The key patient characteristics (kpc's) tables are **monthly** curated assets th
 
  
 Previously, kpc's could be curated using:
-
-## Custom layouts and includes
 {: .d-inline-block }
 
 Deprecated
