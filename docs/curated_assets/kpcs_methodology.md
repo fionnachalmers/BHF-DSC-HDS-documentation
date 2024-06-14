@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methodology
-nav_order: 1
+nav_order: 2
 parent: Key Patient Characteristics
 grand_parent: Curated Assets
 permalink: /docs/curated_assets/kpcs/methodology
