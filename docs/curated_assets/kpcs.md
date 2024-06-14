@@ -29,11 +29,11 @@ The above functions are run at a population wide level which is a lot of compute
 
 ### What tables are being curated?
 
-* Multisource tables - curated for each patient characteristic as at each provisioning month. It consolidates all the records of the characteristic of interest from a wide variety of data sources. Use this table if you want to apply your own bespoke selection algorithm.
+* **Multisource tables** - curated for each patient characteristic as at each provisioning month. It consolidates all the records of the characteristic of interest from a wide variety of data sources. Use this table if you want to apply your own bespoke selection algorithm.
 
-* Individual tables - curated for each patient characteristic as at each provisioning month. It is curated from the multisource table by applying a HDS selection algorithm. The algorithm selects one record per characteristic per person (one row per person).
+* **Individual tables** - curated for each patient characteristic as at each provisioning month. It is curated from the multisource table by applying a HDS selection algorithm. The algorithm selects one record per characteristic per person (one row per person).
 
-* Demographics table - brings together the individual tables into one demographics table. 
+* **Demographics table** - brings together the individual tables into one demographics table. 
 
 
 ## Characteristics of Interest
