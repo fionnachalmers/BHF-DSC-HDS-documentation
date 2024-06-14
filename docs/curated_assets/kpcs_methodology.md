@@ -9,10 +9,10 @@ permalink: /docs/curated_assets/kpcs/methodology
 
 # Code
 
+
 [View code on GitHub](Code Repo for KPCs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 [Code Repo for KPCs]: [https://just-the-docs.com](https://github.com/fionnachalmers)
-
 
 # Methodology
 
@@ -38,5 +38,28 @@ The multisource tables consolidate a characteristic from multiple data sources. 
 
 **No data cleaning is ever applied to the multisource table.**
 
+https://www.nature.com/articles/s41597-024-02958-1
+
 ### Mapping
+
+Codes have been mapped to their descriptions for Sex and Ethnicity, by data source.
+
+For example:
+
+| sex_code | sex_description                                                                         | sex |
+|----------|-----------------------------------------------------------------------------------------|-----|
+| 0        | Not known (not recorded)                                                                | NULL |
+| 1        | Male                                                                                    | M   |
+| 2        | Female                                                                                  | F   |
+| 9        | Not specified (indeterminate, i.e. unable to be classified as either male or female)   | I   |
+
+
+| ethnicity_raw_code | ethnicity_raw_description                                  | ethnicity_18_code | ethnicity_18_group           | ethnicity_5_group       |
+|--------------------|------------------------------------------------------------|-------------------|------------------------------|-------------------------|
+| 93941000000        | Greek Cypriot – ethnic finding 2001 census (finding)       | C                 | Any other White background   | White                   |
+| C                  | Any other White background                                 | C                 | Any other White background   | White                   |
+| 7                  | Chinese                                                    | R                 | Chinese                      | Asian or Asian British  |
+| ...                | ...                                                        | ...               | ...                          | ...                     |
+
+
 
