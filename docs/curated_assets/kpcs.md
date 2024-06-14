@@ -15,10 +15,8 @@ Jump to our [quick-start]({% link docs/curated_assets/kpcs_how_to_use.md %}) gui
 
 The key patient characteristics (kpc's) tables are **monthly** curated assets that have been developed to meet the need for a standardised demographics table that is accessible and usable by all projects. You may want to use these assets as part of your project pipeline or for exploratory data analyses purposes.
 
-Deprecated
-{: .label .label-red } 
-
-Previously, kpc's could be curated using:
+ 
+Previously, kpc's could be curated using: Deprecated{: .label .label-red }
 
 * NHS Data Wranglers curated asset tables: curr301_patient_skinny_unassembled & curr302_patient_skinny_record. These tables are no longer maintained, or
 
