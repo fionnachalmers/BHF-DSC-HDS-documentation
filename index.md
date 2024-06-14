@@ -14,6 +14,10 @@ This has all been build using this repo: https://github.com/fionnachalmers/BHF-D
 
 Once we have some documentation we can move our site over to https://github.com/BHFDSC/documentation
 
+[Buttons for links](Code Repo for KPCs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
+[Code Repo for KPCs]: [https://just-the-docs.com](https://github.com/fionnachalmers)
+
 
 # Title 1
 
