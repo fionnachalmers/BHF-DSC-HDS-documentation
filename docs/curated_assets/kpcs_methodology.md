@@ -62,4 +62,36 @@ For example:
 | ...                | ...                                                        | ...               | ...                          | ...                     |
 
 
+## Individual Tables
+
+We apply data cleaning, data restrictions and finally a selection algorithm to produce a one-record-per-person table.
+
+**Data Cleaning**
+
+
+* Characteristic of interest must be valid i.e. Not Null/NA or blank. Codes that were mapped to Not Given/Stated/Known or Unknown are considered invalid. 
+
+* Record date must be valid i.e. Not Null/NA or blank. 
+
+* Additionally for Date of Birth: Date of Birth must be ≤ Record Date
+
+
+** Data Resctictions**
+
+Available as function arguments:
+
+* Filter out data sources from the multisource table that are not used in the HDS selection algorithm.
+
+* Record date must be ≥ 1900-01-01 
+
+* Record date must be ≤ most recent archived_on date (the max archived_on date for each data source is considered)
+
+
+
+
+
+
+
+
+
 
