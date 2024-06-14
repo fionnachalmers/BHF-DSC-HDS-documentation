@@ -18,7 +18,7 @@ Once we have some documentation we can move our site over to https://github.com/
 
 Adding links to external pages:  See [Test](Code Repo for KPCs) for more details.
 
-Adding links to sections of the GitHub page:  See [Methodology]({% link docs/curated_assets/kpcs_methodology.md %}#external-navigation-links) for more details.
+Adding links to sections of the GitHub page:  See [Methodology]({% link docs/curated_assets/kpcs_methodology.md %}#Something) for more details.
 
 [Buttons for links](Code Repo for KPCs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Code Repo for KPCs]: [https://just-the-docs.com](https://github.com/fionnachalmers)
