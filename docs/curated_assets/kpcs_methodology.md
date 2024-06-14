@@ -40,6 +40,76 @@ The multisource tables consolidate a characteristic from multiple data sources. 
 
 https://www.nature.com/articles/s41597-024-02958-1
 
+### Example
+
+We source date of birth from the following sources:
+
+**GDPPR**
+| NHS_NUMBER_DEID | YEAR_OF_BIRTH | REPORTING_PERIOD_END_DATE |
+|-----------------|---------------|---------------------------|
+| A               | 1975-09       | 2020-05-18                |
+| A               | 1975-09       | 2021-01-03                |
+| A               | 1975-09       | 2023-08-09                |
+| B               | 1980-10       | 2022-10-02                |
+| B               | 1980-10       | 2024-05-09                |
+
+**HES APC**
+| PERSON_ID_DEID | MYDOB  | EPISTART    |
+|----------------|--------|-------------|
+| A              | 1975-09| 1800-01-01  |
+| A              | 1975-09| 1998-04-14  |
+| A              | 1975-09| 2024-02-20  |
+| B              | 1980-10| 1801-01-01  |
+| B              | 1980-10| 2023-12-13  |
+
+**HES AE**
+| PERSON_ID_DEID | ARRIVALAGE_CALC | ARRIVALDATE |
+|----------------|------------------|-------------|
+| B              | 23               | 2003-10-11  |
+| B              | 34               | 2015-01-02  |
+| B              | 42               | 2023-09-09  |
+
+**HES OP**
+| PERSON_ID_DEID | APPTAGE_CALC | APPTDATE   |
+|----------------|--------------|------------|
+| A              | 34           | 2010-09-01 |
+| A              | 24           | 2004-11-02 |
+
+**SSNAP**
+| PERSON_ID_DEID | S1AGEONARRIVAL | S1FIRSTARRIVALDATETIME |
+|----------------|----------------|------------------------|
+| A              | 47             | 2023-06-01             |
+| A              | 47             | 2023-06-12             |
+| A              | 47             | 2023-09-03             |
+| A              | 48             | 2023-12-03             |
+
+They are then harmonised and concatenated into the table hds_curated_assets_date_of_birth_multisource_YYYY_MM_DD:
+
+
+| PERSON_ID | DATE_OF_BIRTH | RECORD_DATE | DATA_SOURCE |
+|-----------|----------------|-------------|-------------|
+| A         | 1975-09-01     | 2020-05-18  | GDPPR       |
+| A         | 1975-09-01     | 2021-01-03  | GDPPR       |
+| A         | 1975-09-01     | 2023-08-09  | GDPPR       |
+| B         | 1980-10-01     | 2022-10-02  | GDPPR       |
+| B         | 1980-10-01     | 2024-05-09  | GDPPR       |
+| A         | 1975-09-01     | 1800-01-01  | HES APC     |
+| A         | 1975-09-01     | 1995-04-14  | HES APC     |
+| A         | 1975-09-01     | 2024-02-20  | HES APC     |
+| B         | 1985-10-01     |             | HES APC     |
+| B         | 1980-10-01     | 2023-12-13  | HES APC     |
+| B         | 1981-04-11     | 2003-10-11  | HES AE      |
+| B         | 1980-07-02     | 2015-01-02  | HES AE      |
+| B         | 1981-03-09     | 2023-09-09  | HES AE      |
+| A         | 1977-03-01     | 2010-09-01  | HES OP      |
+| B         | 1982-05-02     | 2004-11-02  | HES OP      |
+| A         | 1975-12-01     | 2023-06-01  | SSNAP       |
+| A         | 1975-12-12     | 2023-06-12  | SSNAP       |
+| A         | 1976-03-03     | 2023-09-03  | SSNAP       |
+| A         | 1976-06-01     | 2023-12-01  | SSNAP       |
+
+
+
 ### Mapping
 
 Codes have been mapped to their descriptions for Sex and Ethnicity, by data source.
