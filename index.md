@@ -25,7 +25,7 @@ We can add notes
  
 # Code
 
-</div>
+
 {% highlight markdown %}
 ```js
 // Javascript code with syntax highlighting.
@@ -36,7 +36,7 @@ var fun = function lang(l) {
 ```
 {% endhighlight %}
 
-</div>
+
 {% highlight markdown %}
 ```r
 # Phenotype Definitions
@@ -56,12 +56,27 @@ for(i in 1:length(phenotype_ids)){
 {% endhighlight %}
 
 
+{% highlight markdown %}
+```python
+from pyspark.sql import SparkSession
+
+# Initialize a Spark session
+spark = SparkSession.builder.appName("exampleApp").getOrCreate()
+
+# Create a DataFrame
+data = [("James", "Sales", 3000), ("Michael", "Sales", 4600), ("Robert", "Sales", 4100)]
+columns = ["Employee_Name", "Department", "Salary"]
+df = spark.createDataFrame(data, columns)
+```
+{% endhighlight %}
+
+
 
 
 ```yaml
 date_of_birth_multisource()
 
-Description
+ Description
 ```
 
 
