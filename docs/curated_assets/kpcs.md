@@ -9,24 +9,38 @@ permalink: /docs/curated_assets/kpcs
 
 # Key Patient Characterisitcs
 
-Desire to have common demographics table that everyone can use.
+## Motivation
 
-NHS Data Wranglers curated assets: curr301_patient_skinny_unassembled & curr302_patient_skinny_record. These tables are no longer maintained.
+* Desire to have common demographics table that everyone can use.
 
-BHF DSC HDS common functions: key_patient_characteristics_harmonise & key_patient_characteristics_select. These functions were run by every project in every pipeline.
+* NHS Data Wranglers curated assets: curr301_patient_skinny_unassembled & curr302_patient_skinny_record. These tables are no longer maintained.
 
-Monthly curated assets that can be reused by multiple projects as part of a project pipeline or for exploratory data analysis.
+* BHF DSC HDS common functions: key_patient_characteristics_harmonise & key_patient_characteristics_select. These functions were run by every project in every pipeline.
 
-New terminology: multisource tables, individual tables, demographics table.
+* Monthly curated assets that can be reused by multiple projects as part of a project pipeline or for exploratory data analysis.
 
-Provide a multisource table for projects to apply their own bespoke selection algorithm.
+* New terminology: multisource tables, individual tables, demographics table.
 
-Provide an individual table that applies the HDS selection algorithm + new algorithm features.
+* Provide a multisource table for projects to apply their own bespoke selection algorithm.
 
-Provide functions, examples and insight to bespoke algorithms.
+* Provide an individual table that applies the HDS selection algorithm + new algorithm features.
 
-# Characteristics of Interest
+* Provide functions, examples and insight to bespoke algorithms.
 
+## Characteristics of Interest
+
+| Demographic Data       | Multisource Tables | Individual Tables | Demographics Table |
+|------------------------|---------------------|-------------------|--------------------|
+| Date of Birth          | ✔                   | ✔                 | ✔                  |
+| Sex + Mappings         | ✔                   | ✔                 | ✔                  |
+| Ethnicity + Mappings   | ✔                   | ✔                 | ✔                  |
+| LSOA                   | ✔                   | ✔                 | ✔                  |
+|   - Region             |                     |                   | ✔                  |
+|   - IMD Quintile       |                     |                   | ✔                  |
+|   - IMD Decile         |                     |                   | ✔                  |
+| Death                  |                     |                   | ✔                  |
+|   - Date of Death      |                     |                   | ✔                  |
+| In GDPPR               |                     |                   | ✔                  |
 
 
 
