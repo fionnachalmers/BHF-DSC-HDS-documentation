@@ -7,23 +7,28 @@ has_children: true
 permalink: /docs/curated_assets/kpcs
 ---
 
-# Test
+# Key Patient Characterisitcs
 
-## Font stack
+Desire to have common demographics table that everyone can use.
 
-By default, Just the Docs uses a native system font stack for sans-serif fonts:
+NHS Data Wranglers curated assets: curr301_patient_skinny_unassembled & curr302_patient_skinny_record. These tables are no longer maintained.
 
-```scss
-system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Segoe UI Emoji"
-```
+BHF DSC HDS common functions: key_patient_characteristics_harmonise & key_patient_characteristics_select. These functions were run by every project in every pipeline.
 
-```scss
-"SFMono-Regular", Menlo, Consolas, Monospace
-```
+Monthly curated assets that can be reused by multiple projects as part of a project pipeline or for exploratory data analysis.
 
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-{: .fs-5 .ls-10 .text-mono .code-example }
+New terminology: multisource tables, individual tables, demographics table.
+
+Provide a multisource table for projects to apply their own bespoke selection algorithm.
+
+Provide an individual table that applies the HDS selection algorithm + new algorithm features.
+
+Provide functions, examples and insight to bespoke algorithms.
+
+# Characteristics of Interest
+
+
+
 
 
 ---
