@@ -8,6 +8,6 @@ permalink: /docs/insights
 
 # Dataset Summary Dashboard
 
-![Dashboard](/docs/assets/Dashboard.png)
+![Dashboard](/assets/Dashboard.png)
 
 # Codelist Comparison Tool
