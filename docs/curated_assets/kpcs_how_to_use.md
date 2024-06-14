@@ -17,6 +17,7 @@ The archived_on_date is in the format YYYY_MM_DD.
 
 Table names are listed below:
 
+{: .highlight }
 **Demographics table**
 
 
