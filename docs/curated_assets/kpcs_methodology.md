@@ -164,6 +164,132 @@ Available as function arguments:
 
 
 
+<table>
+  <thead>
+    <tr style="background-color: #ffcccc;">
+      <th>PERSON_ID</th>
+      <th>DATE_OF_BIRTH</th>
+      <th>RECORD_DATE</th>
+      <th>DATA_SOURCE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>1975-09-01</td>
+      <td>2020-05-18</td>
+      <td>GDPPR</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1975-09-01</td>
+      <td>2021-01-03</td>
+      <td>GDPPR</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1975-09-01</td>
+      <td>2023-08-09</td>
+      <td>GDPPR</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>1980-10-01</td>
+      <td>2022-10-02</td>
+      <td>GDPPR</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>1980-10-01</td>
+      <td>2024-05-09</td>
+      <td>GDPPR</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1975-09-01</td>
+      <td>1800-01-01</td>
+      <td>HES APC</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1975-09-01</td>
+      <td>1995-04-14</td>
+      <td>HES APC</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1975-09-01</td>
+      <td>2024-02-20</td>
+      <td>HES APC</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>1985-10-01</td>
+      <td></td>
+      <td>HES APC</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>1980-10-01</td>
+      <td>2023-12-13</td>
+      <td>HES APC</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>1981-04-11</td>
+      <td>2003-10-11</td>
+      <td>HES AE</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>1980-07-02</td>
+      <td>2015-01-02</td>
+      <td>HES AE</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>1981-03-09</td>
+      <td>2023-09-09</td>
+      <td>HES AE</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1977-03-01</td>
+      <td>2010-09-01</td>
+      <td>HES OP</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>1982-05-02</td>
+      <td>2004-11-02</td>
+      <td>HES OP</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1975-12-01</td>
+      <td>2023-06-01</td>
+      <td>SSNAP</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1975-12-12</td>
+      <td>2023-06-12</td>
+      <td>SSNAP</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1976-03-03</td>
+      <td>2023-09-03</td>
+      <td>SSNAP</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1976-06-01</td>
+      <td>2023-12-01</td>
+      <td>SSNAP</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
