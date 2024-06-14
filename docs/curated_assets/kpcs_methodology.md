@@ -45,6 +45,7 @@ https://www.nature.com/articles/s41597-024-02958-1
 We source date of birth from the following sources:
 
 **GDPPR**
+
 | NHS_NUMBER_DEID | YEAR_OF_BIRTH | REPORTING_PERIOD_END_DATE |
 |-----------------|---------------|---------------------------|
 | A               | 1975-09       | 2020-05-18                |
@@ -54,6 +55,7 @@ We source date of birth from the following sources:
 | B               | 1980-10       | 2024-05-09                |
 
 **HES APC**
+
 | PERSON_ID_DEID | MYDOB  | EPISTART    |
 |----------------|--------|-------------|
 | A              | 1975-09| 1800-01-01  |
@@ -63,6 +65,7 @@ We source date of birth from the following sources:
 | B              | 1980-10| 2023-12-13  |
 
 **HES AE**
+
 | PERSON_ID_DEID | ARRIVALAGE_CALC | ARRIVALDATE |
 |----------------|------------------|-------------|
 | B              | 23               | 2003-10-11  |
@@ -70,12 +73,14 @@ We source date of birth from the following sources:
 | B              | 42               | 2023-09-09  |
 
 **HES OP**
+
 | PERSON_ID_DEID | APPTAGE_CALC | APPTDATE   |
 |----------------|--------------|------------|
 | A              | 34           | 2010-09-01 |
 | A              | 24           | 2004-11-02 |
 
 **SSNAP**
+
 | PERSON_ID_DEID | S1AGEONARRIVAL | S1FIRSTARRIVALDATETIME |
 |----------------|----------------|------------------------|
 | A              | 47             | 2023-06-01             |
