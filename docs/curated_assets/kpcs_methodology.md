@@ -9,6 +9,8 @@ permalink: /docs/curated_assets/kpcs/methodology
 
 # Code
 
+Stable
+{: .label .label-green }
 
 [View code on GitHub](Code Repo for KPCs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
