@@ -8,6 +8,6 @@ permalink: /docs/resources
 
 # Dataset Summary Dashboard
 
-![Dashboard](https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/dashboard.png)(https://bhfdatasciencecentre.org/dashboard/)
+[![Dashboard](https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/dashboard.png)](https://bhfdatasciencecentre.org/dashboard/)
 
 # Codelist Comparison Tool
