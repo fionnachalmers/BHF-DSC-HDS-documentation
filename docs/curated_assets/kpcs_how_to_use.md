@@ -28,15 +28,18 @@ All tables are saved to the DSA schema: dsa_391419_j3w9t_collab
 The archived_on_date is in the format YYYY_MM_DD.
 
 **Demographics table:**
+
 hds_curated_assets__demographics_archived_on_date
 
 **Multisource tables:**
+
 hds_curated_assets__date_of_birth_multisource_archived_on_date
 hds_curated_assets__sex_multisource_archived_on_date
 hds_curated_assets__ethnicity_multisource_archived_on_date
 hds_curated_assets__lsoa_multisource_archived_on_date
 
 **Individual tables:**
+
 hds_curated_assets__date_of_birth_individual_archived_on_date
 hds_curated_assets__sex_individual_archived_on_date
 hds_curated_assets__ethnicity_individual_archived_on_date
