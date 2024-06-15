@@ -7,16 +7,11 @@ grand_parent: Curated Assets
 permalink: /docs/curated_assets/kpcs/methodology
 ---
 
-# Code
-
-Stable
-{: .label .label-green }
+# Methodology
 
 [View code on GitHub](Code Repo for KPCs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 [Code Repo for KPCs]: [https://just-the-docs.com](https://github.com/fionnachalmers)
-
-# Methodology
 
 ## Multisource Tables
 
