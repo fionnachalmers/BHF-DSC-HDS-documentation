@@ -22,7 +22,7 @@ The multisource tables consolidate a characteristic from multiple data sources. 
 | GDPPR - all archived versions          | ✔ YEAR_OF_BIRTH  | ✔   | ✔         | ✔    | REPORTING_PERIOD_END_DATE    |
 | GDPPR - snomed codes   |     |     | ✔         |      | RECORD_DATE (DATE if missing)|
 | HES APC        | ✔ MYDOB  | ✔   | ✔         | ✔    | EPISTART                     |
-| HES OP         | ✔ APPTAGE_CALV | ✔   | ✔         | ✔    | APPTDATE                     |
+| HES OP         | ✔ APPTAGE_CALC | ✔   | ✔         | ✔    | APPTDATE                     |
 | HES AE         | ✔ ARRIVALAGE_CALC  | ✔   | ✔         | ✔    | ARRIVALDATE                  |
 | SSNAP          | ✔ S1AGEONARRIVAL | ✔   |           | ✔    | S1FIRSTARRIVALDATETIME       |
 | Vaccine status | ✔ MYDOB   |     |           | ✔    | RECORDED_DATE                |
