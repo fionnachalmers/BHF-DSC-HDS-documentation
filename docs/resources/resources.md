@@ -24,5 +24,6 @@ The dashboard can be used to explore the data dictionaries, data coverage and da
   <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/dashboard_webinar.png" alt="Dashboard Webinar YouTube">
 </a>
 
+
 # Codelist Comparison Tool
 
