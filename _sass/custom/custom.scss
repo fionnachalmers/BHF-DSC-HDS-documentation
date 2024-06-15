@@ -3,10 +3,15 @@
   background-color: #EEE8FF;
  }
 
-.side-bar:hover {
-  color: #EEE8FF;
-  background-color: #EEE8FF;
- }
+
+.side-bar a {
+  color: red; 
+}
+
+.side-bar a:hover {
+  color: red; /
+  background-color: red; 
+}
 
 .site-title lh-tight {
   color: #A0003C!important;
