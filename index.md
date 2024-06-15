@@ -11,23 +11,21 @@ Demo for Health Data Science Team.
 This would be our homepage for our documentation.
 
 
-I've built it using just-the-docs template. See this guide for more info: https://just-the-docs.com/docs/ui-components/labels/
+I've built it using [just-the-docs](https://just-the-docs.com/docs/ui-components/labels/) template.
 
 GitHub pages uses **markdown** - which will make it easy for everyone to `contribute`!
 I've popped some of the available customisation below.
 
-HTML will render in markdown, so you can do things not possible with plain markdown syntax. 
-<a href="http://example.com" target="_blank">GDPPR</a>
+HTML will render in markdown, so you can do things not possible with plain markdown syntax E.g. this
+<a href="http://example.com" target="_blank">link</a> opening up on a new tab.
 
-This has all been build using this repo: https://github.com/fionnachalmers/BHF-DSC-HDS-documentation
+This has all been build using [this repo](https://github.com/fionnachalmers/BHF-DSC-HDS-documentation).
 
-Once we have some documentation we can move our site over to https://github.com/BHFDSC/documentation
+Once we have some documentation we can move our site over to **https://github.com/BHFDSC/documentation**.
 
-Adding links to external pages:  See [Test](https://github.com/fionnachalmers/BHF-DSC-HDS-documentation) for more details.
+Adding links to sections of the GitHub page:  E.g. Jump to [Methodology]({% link docs/curated_assets/kpcs_methodology.md %}#Something) for more details.
 
-Adding links to sections of the GitHub page:  See [Methodology]({% link docs/curated_assets/kpcs_methodology.md %}#Something) for more details.
-
-[Buttons for links](https://github.com/fionnachalmers/BHF-DSC-HDS-documentation){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Have buttons for links](https://github.com/fionnachalmers/BHF-DSC-HDS-documentation){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 It is set up that as soon as a page is edited (via a commit) the site will automatically deploy the new version.
