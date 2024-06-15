@@ -26,6 +26,7 @@ Adding links to sections of the GitHub page:  See [Methodology]({% link docs/cur
 [Buttons for links](https://github.com/fionnachalmers/BHF-DSC-HDS-documentation){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
+It is set up that as soon as a page is edited (via a commit) the site will automatically deploy the new version.
 
 # Title 1
 
