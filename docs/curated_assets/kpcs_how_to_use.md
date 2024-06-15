@@ -51,11 +51,12 @@ demographics_table = spark.table(f'{dsa}.hds_curated_assets__demographics_2024_0
 {% endhighlight %}
 
 
-<div class="highlight">
+{: .highlight }
 **Demographics table**
 
 hds_curated_assets__demographics_archived_on_date
 
+{: .highlight }
 **Multisource tables**
 
 hds_curated_assets__date_of_birth_multisource_archived_on_date
@@ -63,5 +64,5 @@ hds_curated_assets__sex_multisource_archived_on_date
 hds_curated_assets__ethnicity_multisource_archived_on_date
 hds_curated_assets__lsoa_multisource_archived_on_date
 
+{: .highlight }
 **Individual tables**
-</div>
