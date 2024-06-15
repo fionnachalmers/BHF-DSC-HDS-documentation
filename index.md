@@ -10,6 +10,8 @@ permalink: /
 Demo for Health Data Science Team.
 This would be our homepage for our documentation.
 
+<a href="http://example.com" target="_blank">GDPPR</a>
+
 I've built it using just-the-docs template. See this guide for more info: https://just-the-docs.com/docs/ui-components/labels/
 
 GitHub pages uses **markdown** - which will make it easy for everyone to `contribute`!
