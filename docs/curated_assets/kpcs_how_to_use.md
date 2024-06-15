@@ -20,18 +20,18 @@ Table names are listed below:
 {: .highlight }
 >
 > **Demographics table**
->
+> >
 > hds_curated_assets__demographics_archived_on_date
 >
 > **Multisource tables**
->
+> >
 > hds_curated_assets__date_of_birth_multisource_archived_on_date
 > hds_curated_assets__sex_multisource_archived_on_date
 > hds_curated_assets__ethnicity_multisource_archived_on_date
 > hds_curated_assets__lsoa_multisource_archived_on_date
 >
 > **Individual tables**
->
+> >
 > hds_curated_assets__date_of_birth_individual_archived_on_date
 > hds_curated_assets__sex_individual_archived_on_date
 > hds_curated_assets__ethnicity_individual_archived_on_date
