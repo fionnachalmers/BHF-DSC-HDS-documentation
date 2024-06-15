@@ -40,3 +40,4 @@ Workspaces\dars_nic_391419_j3w9t\DATA_RESOURCES\DATA_SUMMARY\GDPPR Summary-Noteb
 > Patients who have opted out (~1.3m) are not removed; data no longer flows from the point of opt out
 > Not possible to reliably infer number of GP appointments/consultations
 > Small number of SNOMED-CT codes in GDPPR not matching to the GDPPR reference set
+
