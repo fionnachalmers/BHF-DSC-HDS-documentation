@@ -10,7 +10,10 @@ permalink: /
 Demo for Health Data Science Team.
 This would be our homepage for our documentation.
 
+I've built it using just-the-docs template. See this guide for more info: https://just-the-docs.com/docs/ui-components/labels/
+
 GitHub pages uses **markdown** - which will make it easy for everyone to `contribute`!
+I've popped some of the available customisation below.
 
 This has all been build using this repo: https://github.com/fionnachalmers/BHF-DSC-HDS-documentation
 
@@ -41,6 +44,17 @@ New information
 
 {: .highlight }
 Highlights
+
+## Title 1b
+
+Labels!
+{: .label .label-green }
+
+More Labels
+{: .label .label-red }
+
+Coming soon
+{: .label .label-yellow }
 
  
 # Code
