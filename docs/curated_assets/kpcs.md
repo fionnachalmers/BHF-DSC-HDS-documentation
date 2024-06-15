@@ -18,7 +18,8 @@ The key patient characteristics (kpc's) tables are **monthly** curated assets th
  
 Previously, kpc's could be curated using:
 
-* NHS Data Wranglers curated asset tables curr301_patient_skinny_unassembled & curr302_patient_skinny_record. These tables are no longer maintained {: .d-inline-block } Deprecated {: .label .label-red }
+* NHS Data Wranglers curated asset tables curr301_patient_skinny_unassembled & curr302_patient_skinny_record. These tables are no longer maintained
+Deprecated {: .label .label-red }
 
 * BHF DSC HDS common functions key_patient_characteristics_harmonise & key_patient_characteristics_select. These functions were run by every project in every pipeline.
 
