@@ -33,12 +33,19 @@ Workspaces\dars_nic_391419_j3w9t\DATA_RESOURCES\DATA_SUMMARY\GDPPR Summary-Noteb
 * from participating practices in England (98%)
 * with SNOMED-CT codes relevant to pandemic planning and research
 >
-> Includes SNOMED-CT codes deemed applicable for COVID-19 research (~36,000 out of >900,000) 
-> Data coverage varies according to SNOMED-CT code cluster 
-> GDPPR includes ~61m individuals, GP list size estimates ~62m individuals, ONS population estimates ~57m 
-> No registration data available 
-> Individuals and records are not removed from the extract in monthly batch updates 
+> Includes SNOMED-CT codes deemed applicable for COVID-19 research (~36,000 out of >900,000)
+>
+> Data coverage varies according to SNOMED-CT code cluster
+>
+> GDPPR includes ~61m individuals, GP list size estimates ~62m individuals, ONS population estimates ~57m
+>
+> No registration data available
+>
+> Individuals and records are not removed from the extract in monthly batch updates
+>
 > Patients who have opted out (~1.3m) are not removed; data no longer flows from the point of opt out
+>
 > Not possible to reliably infer number of GP appointments/consultations
+>
 > Small number of SNOMED-CT codes in GDPPR not matching to the GDPPR reference set
 
