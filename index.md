@@ -30,6 +30,8 @@ Adding links to sections of the GitHub page:  E.g. Jump to [Methodology]({% link
 
 It is set up that as soon as a page is edited (via a commit) the site will automatically deploy the new version.
 
+When you add a new file - make sure to make it a .md file!
+
 # Title 1
 
 
