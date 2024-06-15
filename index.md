@@ -34,7 +34,13 @@ We can add notes
 
 
 {: .warning }
-> We can add warnings
+We can add warnings
+
+{: .new}
+New information
+
+{: .highlight }
+Highlights
 
  
 # Code
