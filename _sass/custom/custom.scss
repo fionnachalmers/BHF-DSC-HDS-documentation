@@ -33,3 +33,8 @@ a.site-title.lh-tight {
   background-image: none;
   transition: none; 
 }
+
+
+.nav-list-link active{
+  background-image:linear-gradient(-90deg, #DED2FE 0%, #DED2FE 80%, #DED2FE 100%)
+}
