@@ -38,7 +38,7 @@ Table names are listed below:
 > hds_curated_assets__lsoa_individual_archived_on_date
 
 
-The example below will load the demographics table as at April 2024.
+The example below will load the demographics table as at April 2024 using PySpark:
 
 {% highlight markdown %}
 ```python
