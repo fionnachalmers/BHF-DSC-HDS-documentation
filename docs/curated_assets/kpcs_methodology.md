@@ -19,13 +19,13 @@ The multisource tables consolidate a characteristic from multiple data sources. 
 
 | Data Source    | Date of Birth | Sex | Ethnicity | LSOA | Record Date                  |
 |----------------|-----|-----|-----------|------|------------------------------|
-| GDPPR - all archived versions          | ✔   | ✔   | ✔         | ✔    | REPORTING_PERIOD_END_DATE    |
+| GDPPR - all archived versions          | ✔ YEAR_OF_BIRTH  | ✔   | ✔         | ✔    | REPORTING_PERIOD_END_DATE    |
 | GDPPR - snomed codes   |     |     | ✔         |      | RECORD_DATE (DATE if missing)|
-| HES APC        | ✔   | ✔   | ✔         | ✔    | EPISTART                     |
-| HES OP         | ✔   | ✔   | ✔         | ✔    | APPTDATE                     |
-| HES AE         | ✔   | ✔   | ✔         | ✔    | ARRIVALDATE                  |
-| SSNAP          | ✔   | ✔   |           | ✔    | S1FIRSTARRIVALDATETIME       |
-| Vaccine status | ✔   |     |           | ✔    | RECORDED_DATE                |
+| HES APC        | ✔ MYDOB  | ✔   | ✔         | ✔    | EPISTART                     |
+| HES OP         | ✔ APPTAGE_CALV | ✔   | ✔         | ✔    | APPTDATE                     |
+| HES AE         | ✔ ARRIVALAGE_CALC  | ✔   | ✔         | ✔    | ARRIVALDATE                  |
+| SSNAP          | ✔ S1AGEONARRIVAL | ✔   |           | ✔    | S1FIRSTARRIVALDATETIME       |
+| Vaccine status | ✔ MYDOB   |     |           | ✔    | RECORDED_DATE                |
 
 
 
