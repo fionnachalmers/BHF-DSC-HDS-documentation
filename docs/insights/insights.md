@@ -8,5 +8,4 @@ permalink: /docs/insights
 
 # Data Insights
 
-Description...
-{: .fs-6 .fw-300 }
+We provide data insights to support informed decision-making. These insights help you understand a dataset’s limitations and how it was compiled, ensuring accurate analysis by avoiding incorrect assumptions.
