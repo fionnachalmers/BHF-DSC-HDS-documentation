@@ -6,3 +6,4 @@ parent: Resources
 permalink: /docs/resources/codelist_comparison_tool
 ---
 
+# Codelist Comparison Tool
