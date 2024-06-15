@@ -11,9 +11,9 @@ permalink: /docs/curated_assets/kpcs/how_to_use
 
 All kpc tables will be curated at the end of every month, following the NHS Data Wranglers provisioning runs. 
 
-All tables are saved to the DSA schema, dsa_391419_j3w9t_collab.
+All tables are saved to the DSA schema **dsa_391419_j3w9t_collab**.
 
-The archived_on_date is in the format YYYY_MM_DD.
+The archived_on_date is in the format **YYYY_MM_DD**.
 
 Table names are listed below:
 
