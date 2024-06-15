@@ -9,12 +9,6 @@ permalink: /docs/data_management_hub
 # Known issues with datasets
 
 
-
-| Dataset             | Last Provisioned Batch    | Known Issues |
-|:----------------------|:---------------------------------|:------------------------------|
-| `GDPPR`   | 2024-06-04| Yes                         |
-| `HES APC`    | 2023-05-27 | No                         |
-| `HES OP`   | 2023-05-27 | No                         |
-
+# Archived On Versions
 
 
