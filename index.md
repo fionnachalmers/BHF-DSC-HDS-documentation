@@ -12,6 +12,26 @@ This would be our homepage for our documentation.
 
 <a href="http://example.com" target="_blank">GDPPR</a>
 
+# HTML
+> How to add HTML tags to your markdown files
+
+This page is aimed at both markdown docs files on Github as well as markdown pages of a Jekyll site.
+
+HTML will render in markdown, so you can do things not possible with plain markdown syntax. Such as add an ID or class or resize and align images. HTML doesn't care about whitespace so much so it is also easier to build a bullet list or table using a if statements and for loops when using HTML rather than markdown.
+
+
+```html
+<p>
+    This is a paragraph with **markdown bold** which will be ignored.
+    This is the next line but there was no break tag so it is on the same line.
+</p>
+```
+
+<p>
+    This is a paragraph with **markdown bold** which will be ignored.
+    This is the next line but there was no break tag so it is on the same line.
+</p>
+
 I've built it using just-the-docs template. See this guide for more info: https://just-the-docs.com/docs/ui-components/labels/
 
 GitHub pages uses **markdown** - which will make it easy for everyone to `contribute`!
