@@ -47,8 +47,22 @@ We can add warnings
 {: .new}
 New information
 
+{: .new-title}
+> My note title has changed
+>
+> A paragraph with a custom title callout
+
 {: .highlight }
 Highlights
+
+{: .highlight-title }
+> Look at this
+>
+> Another paragraph
+>
+> The last paragraph
+> >
+> The last paragraph
 
 ## Title 1b
 
