@@ -16,7 +16,7 @@ All tables are saved to the DSA schema **dsa_391419_j3w9t_collab**.
 The archived_on_date is in the format **YYYY_MM_DD**.
 
 
-{: .highlight }
+{: .highlight-title }
 > Table Names
 >
 > **Demographics table**
