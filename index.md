@@ -55,7 +55,9 @@ I've made some link buttons throught the doc that open in new pages so you can j
 
 I've added some custom css to bring the template in line with the brand colours.
 
-This has all been build using [this repo](https://github.com/fionnachalmers/BHF-DSC-HDS-documentation).
+
+This has all been built using <a href="https://github.com/fionnachalmers/BHF-DSC-HDS-documentation" target="_blank">this repo</a>.
+
 
 Once we have some more documentation we can move our site over to **https://github.com/BHFDSC/documentation**.
 
@@ -63,6 +65,13 @@ Adding links to sections of the GitHub page:  E.g. Jump to [Methodology]({% link
 
 [Have buttons for links](https://github.com/fionnachalmers/BHF-DSC-HDS-documentation){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
+The above button opens the link in the same page because it is written in markdown.
+
+<a href="https://github.com/fionnachalmers/BHF-DSC-HDS-documentation" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank">This button uses HTML to open the link in a new tab</a>
+
+<span class="fs-3">
+  <a href="https://github.com/BHFDSC/cvd-covid-tre-dashboard" class="btn" target="_blank">Another button example</a>
+</span>
 
 It is set up that as soon as a page is edited (via a commit) the site will automatically deploy the new version.
 
