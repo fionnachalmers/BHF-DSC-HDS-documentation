@@ -81,7 +81,7 @@ More Labels
 Coming soon
 {: .label .label-yellow }
 
-<span class="label label-red">Labels using HTMLd</span>
+<span class="label label-red">Labels using HTML</span>
 
  
 # Code
