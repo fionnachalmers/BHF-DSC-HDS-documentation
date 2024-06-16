@@ -51,11 +51,13 @@ I've popped some of the available customisation below.
 HTML will render in markdown, so you can do things not possible with plain markdown syntax E.g. this
 <a href="http://example.com" target="_blank">link</a> opening up on a new tab.
 
+I've made some link buttons throught the doc that open in new pages so you can just copy and paste the code from here.
+
 I've added some custom css to bring the template in line with the brand colours.
 
 This has all been build using [this repo](https://github.com/fionnachalmers/BHF-DSC-HDS-documentation).
 
-Once we have some documentation we can move our site over to **https://github.com/BHFDSC/documentation**.
+Once we have some more documentation we can move our site over to **https://github.com/BHFDSC/documentation**.
 
 Adding links to sections of the GitHub page:  E.g. Jump to [Methodology]({% link docs/curated_assets/kpcs_methodology.md %}#Something) for more details.
 
