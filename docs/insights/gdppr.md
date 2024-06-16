@@ -19,8 +19,13 @@ GDPPR = General Practice Extraction Service (GPES) Data for Pandemic Planning an
 
 {: .highlight-title }
 > Table Names
-> 
+>
+> **Live table**
+> >
 > dars_nic_391419_j3w9t.gdppr_dars_nic_391419_j3w9t
+>
+> **Archived table**
+> >
 > dars_nic_391419_j3w9t_collab.gdppr_dars_nic_391419_j3w9t_archive
 
 ## Data Summary Notebook in the SDE
