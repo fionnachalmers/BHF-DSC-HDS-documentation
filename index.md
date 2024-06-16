@@ -10,34 +10,35 @@ permalink: /
 # Meet the Team
 
 <div style="display: flex; flex-wrap: nowrap; gap: 10px;">
-  <a href="mailto:thomas.bolton@hdruk.ac.uk">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 100px; height: 100px;">
+  <a href="mailto:thomas.bolton@hdruk.ac.uk" style="flex: 1;">
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 100%; height: auto;">
   </a>
-  <a href="mailto:john.nolan@hdruk.ac.uk">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/john_nolan.png" alt="John Nolan" style="width: 100px; height: 100px;">
+  <a href="mailto:john.nolan@hdruk.ac.uk" style="flex: 1;">
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/john_nolan.png" alt="John Nolan" style="width: 100%; height: auto;">
   </a>
-  <a href="mailto:mehrdad.mizani@hdruk.ac.uk">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/mehrdad_mizani.png" alt="Mehrdad Mizani" style="width: 100px; height: 100px;">
+  <a href="mailto:mehrdad.mizani@hdruk.ac.uk" style="flex: 1;">
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/mehrdad_mizani.png" alt="Mehrdad Mizani" style="width: 100%; height: auto;">
   </a>
-  <a href="mailto:zach.welshman@hdruk.ac.uk">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/zach_welshman.png" alt="Zach Welshman" style="width: 100px; height: 100px;">
+  <a href="mailto:zach.welshman@hdruk.ac.uk" style="flex: 1;">
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/zach_welshman.png" alt="Zach Welshman" style="width: 100%; height: auto;">
   </a>
-  <a href="mailto:james.farrell@hdruk.ac.uk">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/jamie_farrell.png" alt="Jamie Farrell" style="width: 100px; height: 100px;">
+  <a href="mailto:james.farrell@hdruk.ac.uk" style="flex: 1;">
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/jamie_farrell.png" alt="Jamie Farrell" style="width: 100%; height: auto;">
   </a>
-  <a href="mailto:lars.murdock@hdruk.ac.uk">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/lars_murdock.png" alt="Lars Murdock" style="width: 100px; height: 100px;">
+  <a href="mailto:lars.murdock@hdruk.ac.uk" style="flex: 1;">
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/lars_murdock.png" alt="Lars Murdock" style="width: 100%; height: auto;">
   </a>
-  <a href="mailto:anna.stevenson@hdruk.ac.uk">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/anna_stevenson.png" alt="Anna Stevenson" style="width: 100px; height: 100px;">
+  <a href="mailto:anna.stevenson@hdruk.ac.uk" style="flex: 1;">
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/anna_stevenson.png" alt="Anna Stevenson" style="width: 100%; height: auto;">
   </a>
-  <a href="mailto:fionna.chalmers@hdruk.ac.uk.com">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/fionna_chalmers.png" alt="Fionna Chalmers" style="width: 100px; height: 100px;">
+  <a href="mailto:fionna.chalmers@hdruk.ac.uk" style="flex: 1;">
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/fionna_chalmers.png" alt="Fionna Chalmers" style="width: 100%; height: auto;">
   </a>
-  <a href="mailto:jadene.lewis@hdruk.ac.uk">
-    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/jadene_lewis.png" alt="Jadene Lewis" style="width: 100px; height: 100px;">
+  <a href="mailto:jadene.lewis@hdruk.ac.uk" style="flex: 1;">
+    <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/jadene_lewis.png" alt="Jadene Lewis" style="width: 100%; height: auto;">
   </a>
 </div>
+
 
 
 
