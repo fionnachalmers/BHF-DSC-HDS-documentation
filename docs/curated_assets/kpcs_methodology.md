@@ -114,6 +114,7 @@ We apply data cleaning, data restrictions and finally a selection algorithm to p
 | 9       | B         | 1985-10-01    |             | HES APC     |
 
 We remove row 6 because Date of Birth is not ≤ Record Date.
+
 We remove row 9 because the Record Date is NULL.
 
 
@@ -137,6 +138,7 @@ We remove row 9 because the Record Date is NULL.
 | 20      | A         | 1975-09-01    | 2022-01-01  | Vaccine Status       |
 
 We remove row 5 because the Record Date is ≥ archived_on date of 2024-04-25.
+
 We remove row 16-20 because we only use GDPPR, HES APC, HES OP and HES AE in our selection algorithm.
 
 {: .note }
@@ -193,3 +195,12 @@ Our final individual table for date of birth is **hds_curated_assets__date_of_bi
 | 4       | B         | 1980-10-01    | 2022-10-02  | GDPPR       |
 
 
+### Ties
+
+
+
+
+
+---
+
+### Demographics Table
