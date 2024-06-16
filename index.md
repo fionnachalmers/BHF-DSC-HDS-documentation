@@ -73,6 +73,10 @@ The above button opens the link in the same page because it is written in markdo
   <a href="https://github.com/BHFDSC/cvd-covid-tre-dashboard" class="btn" target="_blank">Another button example</a>
 </span>
 
+[Go to KPC Individual Tables]({% link docs/curated_assets/kpcs_methodology.md %}## Individual Tables){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
+
+
 It is set up that as soon as a page is edited (via a commit) the site will automatically deploy the new version.
 
 When you add a new file - make sure to make it a .md file!
