@@ -61,7 +61,7 @@ This has all been built using <a href="https://github.com/fionnachalmers/BHF-DSC
 
 Once we have some more documentation we can move our site over to **https://github.com/BHFDSC/documentation**.
 
-Adding links to sections of the GitHub page:  E.g. Jump to [Methodology]({% link docs/curated_assets/kpcs_methodology.md %}#Something) for more details.
+Adding links to sections of the GitHub page:  E.g. Jump to [Methodology]({% link docs/curated_assets/kpcs_methodology.md %}) for more details.
 
 [Have buttons for links](https://github.com/fionnachalmers/BHF-DSC-HDS-documentation){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
@@ -81,6 +81,9 @@ The above button will take you to the Key Patient Characteristics Methodology pa
 It is set up that as soon as a page is edited (via a commit) the site will automatically deploy the new version.
 
 When you add a new file - make sure to make it a .md file!
+
+We can embed YouTube videos - [see example here]({% link docs/resources/dataset_summary_dashboard.md %})
+Note that you have to use the code used here but replace the Youtube ID with the one from your video (dont just copy and paste the YouTube HTML).
 
 # Title 1
 
