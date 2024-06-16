@@ -25,6 +25,6 @@ The dashboard can be used to explore the data dictionaries, data coverage and da
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/JpSkY9zMx3w&t=538s">
+<iframe width="736" height="410"
+src="https://www.youtube.com/embed/JpSkY9zMx3w&t=538s?autoplay=1&mute=1">
 </iframe>
