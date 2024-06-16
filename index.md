@@ -9,7 +9,7 @@ permalink: /
 
 # Meet the Team
 
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; gap: 7px;">
   <a href="mailto:thomas.bolton@hdruk.ac.uk" style="flex: none;">
     <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/tom_bolton.png" alt="Tom Bolton" style="width: 100px; height: 100px; object-fit: cover;">
   </a>
