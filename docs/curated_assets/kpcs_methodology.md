@@ -13,6 +13,8 @@ permalink: /docs/curated_assets/kpcs/methodology
 
 [Code Repo for KPCs]: [https://just-the-docs.com](https://github.com/fionnachalmers)
 
+---
+
 ## Multisource Tables
 
 The multisource tables consolidate a characteristic from multiple data sources. The data sources included so far are below. We will add data sources to this resource when the need arises - sources included so far have been project led. 
@@ -91,6 +93,7 @@ For example:
 | 7                  | Chinese                                                    | R                 | Chinese                      | Asian or Asian British  |
 | ...                | ...                                                        | ...               | ...                          | ...                     |
 
+---
 
 ## Individual Tables
 
@@ -106,9 +109,7 @@ We apply data cleaning, data restrictions and finally a selection algorithm to p
 * Additionally for Date of Birth: Date of Birth must be ≤ Record Date
 
 
-**Data Resctictions**
-
-Available as function arguments:
+**Data Resctictions** <span class="label label-red">Available as function arguments</span>
 
 * Filter out data sources from the multisource table that are not used in the HDS selection algorithm.
 
