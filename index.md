@@ -136,15 +136,6 @@ date_of_birth_multisource()
  Description
 ```
 
-<iframe width="420" height="315"
-src=""https://www.youtube.com/watch?v=JpSkY9zMx3w&t=538s">
-</iframe>
-
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-
-
 ----
 
 
