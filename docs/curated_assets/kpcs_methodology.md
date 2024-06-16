@@ -21,13 +21,13 @@ The multisource tables consolidate a characteristic from multiple data sources. 
 
 | Data Source    | Date of Birth | Sex | Ethnicity | LSOA | Record Date                  |
 |----------------|-----|-----|-----------|------|------------------------------|
-| GDPPR - all archived versions          | ✔ YEAR_OF_BIRTH  | ✔   | ✔         | ✔    | REPORTING_PERIOD_END_DATE    |
+| GDPPR - all archived versions          | ✔ YEAR_OF_BIRTH  | ✔ SEX  | ✔ ETHNIC        | ✔ LSOA   | REPORTING_PERIOD_END_DATE    |
 | GDPPR - snomed codes   |     |     | ✔         |      | RECORD_DATE (DATE if missing)|
-| HES APC        | ✔ MYDOB  | ✔   | ✔         | ✔    | EPISTART                     |
-| HES OP         | ✔ APPTAGE_CALC | ✔   | ✔         | ✔    | APPTDATE                     |
-| HES AE         | ✔ ARRIVALAGE_CALC  | ✔   | ✔         | ✔    | ARRIVALDATE                  |
-| SSNAP          | ✔ S1AGEONARRIVAL | ✔   |           | ✔    | S1FIRSTARRIVALDATETIME       |
-| Vaccine status | ✔ MYDOB   |     |           | ✔    | RECORDED_DATE                |
+| HES APC        | ✔ MYDOB  | ✔ SEX  | ✔ ETHNOS        | ✔ LSOA11    | EPISTART                     |
+| HES OP         | ✔ APPTAGE_CALC | ✔ SEX  | ✔ ETHNOS        | ✔ LSOA11   | APPTDATE                     |
+| HES AE         | ✔ ARRIVALAGE_CALC  | ✔ SEX  | ✔ ETHNOS        | ✔ LSOA11   | ARRIVALDATE                  |
+| SSNAP          | ✔ S1AGEONARRIVAL | ✔ S1GENDER  |           | ✔ LSOA_OF_RESIDENCE   | S1FIRSTARRIVALDATETIME       |
+| Vaccine status | ✔ MYDOB   |     |           | ✔ LSOA   | RECORDED_DATE                |
 
 
 
