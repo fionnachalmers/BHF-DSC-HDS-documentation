@@ -9,7 +9,7 @@ permalink: /docs/resources/dataset_summary_dashboard
 # Dataset Summary Dashboard
 
 <span class="fs-3">
-[View code on GitHub](https://github.com/BHFDSC/cvd-covid-tre-dashboard){: .btn }
+  <a href="https://github.com/BHFDSC/cvd-covid-tre-dashboard" class="btn" target="_blank">View code on GitHub</a>
 </span>
 
 Our dataset summary dashboard provides an overview and interactive summaries of the datasets currently available through CVD-COVID-UK/COVID-IMPACT within the secure Secure Data/Trusted Research Environments provided by NHS England for England, the National Data Safe Haven for Scotland and the SAIL databank for Wales. 
