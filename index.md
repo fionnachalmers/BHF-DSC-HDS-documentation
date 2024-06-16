@@ -76,6 +76,8 @@ The above button opens the link in the same page because it is written in markdo
 
 [Go to KPC Individual Tables]({% link docs/curated_assets/kpcs_methodology.md %}#individual-tables){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
+The above button will take you to the Key Patient Characteristics Methodology page and to the Individual Tables section. Note that to reference that section the code is #individual-tables
+
 It is set up that as soon as a page is edited (via a commit) the site will automatically deploy the new version.
 
 When you add a new file - make sure to make it a .md file!
