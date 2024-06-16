@@ -40,35 +40,34 @@ GDPPR is derived from a JOURNALS (coded data) and PATIENTS (demographic) table w
 {: .highlight }
 **No data cleaning is ever applied to the multisource table.**
 
-https://www.nature.com/articles/s41597-024-02958-1
-
 ### Example
 
-We source date of birth from the following sources:
-They are then harmonised and concatenated into the table hds_curated_assets_date_of_birth_multisource_YYYY_MM_DD:
+For Person A and B we find all date of birth records that exist in GDPPR, HES APC, HES AE, HES OP, SSNAP and Vaccine Status as at the archived_on date **2024-04-25**.
+They are then harmonised and concatenated into the table **hds_curated_assets__date_of_birth_multisource_2024_04_25**:
 
 
-| PERSON_ID | DATE_OF_BIRTH | RECORD_DATE | DATA_SOURCE |
-|-----------|----------------|-------------|-------------|
-| A         | 1975-09-01     | 2020-05-18  | GDPPR       |
-| A         | 1975-09-01     | 2021-01-03  | GDPPR       |
-| A         | 1975-09-01     | 2023-08-09  | GDPPR       |
-| B         | 1980-10-01     | 2022-10-02  | GDPPR       |
-| B         | 1980-10-01     | 2024-05-09  | GDPPR       |
-| A         | 1975-09-01     | 1800-01-01  | HES APC     |
-| A         | 1975-09-01     | 1995-04-14  | HES APC     |
-| A         | 1975-09-01     | 2024-02-20  | HES APC     |
-| B         | 1985-10-01     |             | HES APC     |
-| B         | 1980-10-01     | 2023-12-13  | HES APC     |
-| B         | 1981-04-11     | 2003-10-11  | HES AE      |
-| B         | 1980-07-02     | 2015-01-02  | HES AE      |
-| B         | 1981-03-09     | 2023-09-09  | HES AE      |
-| A         | 1977-03-01     | 2010-09-01  | HES OP      |
-| B         | 1982-05-02     | 2004-11-02  | HES OP      |
-| A         | 1975-12-01     | 2023-06-01  | SSNAP       |
-| A         | 1975-12-12     | 2023-06-12  | SSNAP       |
-| A         | 1976-03-03     | 2023-09-03  | SSNAP       |
-| A         | 1976-06-01     | 2023-12-01  | SSNAP       |
+| ROW_NUM | PERSON_ID | DATE_OF_BIRTH | RECORD_DATE | DATA_SOURCE |
+|---------|-----------|---------------|-------------|-------------|
+| 1       | A         | 1975-09-01    | 2020-05-18  | GDPPR       |
+| 2       | A         | 1975-09-01    | 2021-01-03  | GDPPR       |
+| 3       | A         | 1975-09-01    | 2023-08-09  | GDPPR       |
+| 4       | B         | 1980-10-01    | 2022-10-02  | GDPPR       |
+| 5       | B         | 1980-10-01    | 2024-05-09  | GDPPR       |
+| 6       | A         | 1975-09-01    | 1800-01-01  | HES APC     |
+| 7       | A         | 1975-09-01    | 1995-04-14  | HES APC     |
+| 8       | A         | 1975-09-01    | 2024-02-20  | HES APC     |
+| 9       | B         | 1985-10-01    |             | HES APC     |
+| 10      | B         | 1980-10-01    | 2023-12-13  | HES APC     |
+| 11      | B         | 1981-04-11    | 2003-10-11  | HES AE      |
+| 12      | B         | 1980-07-02    | 2015-01-02  | HES AE      |
+| 13      | B         | 1981-03-09    | 2023-09-09  | HES AE      |
+| 14      | A         | 1977-03-01    | 2010-09-01  | HES OP      |
+| 15      | B         | 1982-05-02    | 2004-11-02  | HES OP      |
+| 16      | A         | 1975-12-01    | 2023-06-01  | SSNAP       |
+| 17      | A         | 1975-12-12    | 2023-06-12  | SSNAP       |
+| 18      | A         | 1976-03-03    | 2023-09-03  | SSNAP       |
+| 19      | A         | 1976-06-01    | 2023-12-01  | SSNAP       |
+| 20      | A         | 1975-09-01    | 2022-01-01  | Vaccine Status       |
 
 
 
@@ -101,20 +100,96 @@ We apply data cleaning, data restrictions and finally a selection algorithm to p
 
 **Data Cleaning**
 
-
 * Characteristic of interest must be valid i.e. Not Null/NA or blank. Codes that were mapped to Not Given/Stated/Known or Unknown are considered invalid. 
 
 * Record date must be valid i.e. Not Null/NA or blank. 
 
 * Additionally for Date of Birth: Date of Birth must be ≤ Record Date
 
+### Example
+
+| ROW_NUM | PERSON_ID | DATE_OF_BIRTH | RECORD_DATE | DATA_SOURCE |
+|---------|-----------|---------------|-------------|-------------|
+| 6       | A         | 1975-09-01    | 1800-01-01  | HES APC     |
+| 9       | B         | 1985-10-01    |             | HES APC     |
+
+We remove row 6 because Date of Birth is not ≤ Record Date.
+We remove row 9 because the Record Date is NULL.
+
 
 **Data Resctictions** <span class="label label-purple">Available as function arguments</span>
 
-* Filter out data sources from the multisource table that are not used in the HDS selection algorithm.
+* Filter out data sources from the multisource table that are not used in the HDS selection algorithm. The data sources in the multisource table will grow over time. Our selection algorithm will **only use GDPPR, HES APC, HES OP and HES AE**.
 
 * Record date must be ≥ 1900-01-01 
 
 * Record date must be ≤ most recent archived_on date (the max archived_on date for each data source is considered)
+
+### Example
+
+| ROW_NUM | PERSON_ID | DATE_OF_BIRTH | RECORD_DATE | DATA_SOURCE |
+|---------|-----------|---------------|-------------|-------------|
+| 5       | B         | 1980-10-01    | 2024-05-09  | GDPPR       |
+| 16      | A         | 1975-12-01    | 2023-06-01  | SSNAP       |
+| 17      | A         | 1975-12-12    | 2023-06-12  | SSNAP       |
+| 18      | A         | 1976-03-03    | 2023-09-03  | SSNAP       |
+| 19      | A         | 1976-06-01    | 2023-12-01  | SSNAP       |
+| 20      | A         | 1975-09-01    | 2022-01-01  | Vaccine Status       |
+
+We remove row 5 because the Record Date is ≥ archived_on date of 2024-04-25.
+We remove row 16-20 because we only use GDPPR, HES APC, HES OP and HES AE in our selection algorithm.
+
+{: .note }
+Want to use our selection algorithm but include more data sources or define your own minimum record date? Use our functions!
+
+
+**Selection Algorithm**
+
+Finally, we apply a selection algorithm to pick one record per person.
+
+Depending on the characteristic, recency or data source is prioritised over the other for this selection. Time variant characteristics are selected differently to time invariant.
+
+| Demographic data | Data sources used, ordered by priority levels | Priority |
+|------------------|----------------------------------------------|----------|
+| Date of Birth    | GDPPR = 1<br>HES APC = 2<br>HES OP = HES AE = 3 | Data source > Recency |
+| Sex              | GDPPR = 1<br>HES APC = 2<br>HES OP = HES AE = 3 | Data source > Recency |
+| Ethnicity        | GDPPR SNOMED = 1<br>GDPPR = 2<br>HES APC = 3<br>HES OP = HES AE = 4 | Data source > Recency |
+| LSOA             | GDPPR = HES APC = HES OP = HES AE = 1  | Most recent record (all data sources have the same priority index) |
+
+* For Date of Birth, Sex and Ethnicity we prioritise primary care over secondary care. We also prioritise HES APC before HES OP and HES AE. Within data sources, we prioritise receny. Prioritising data source > recency means that we do not necessarily pick the most recent record available for each person. Instead, we pick the most recent record available in GDPPR and if there are no records in GDPPR we pick the most recent in HES APC and so on.
+
+* For LSOA we prioritise the most recent record regardless of source.
+
+{: .note }
+We prioritise SNOMED Ethnicity codes before GDPPR Ethnicity codes. Find out more about ethnicity in health research <a href="https://www.nature.com/articles/s41597-024-02958-1" target="_blank">here</a>.
+
+### Example
+
+We apply our selection algorithm to the records remaining below:
+
+| ROW_NUM | PERSON_ID | DATE_OF_BIRTH | RECORD_DATE | DATA_SOURCE |
+|---------|-----------|---------------|-------------|-------------|
+| 1       | A         | 1975-09-01    | 2020-05-18  | GDPPR       |
+| 2       | A         | 1975-09-01    | 2021-01-03  | GDPPR       |
+| 3       | A         | 1975-09-01    | 2023-08-09  | GDPPR       |
+| 4       | B         | 1980-10-01    | 2022-10-02  | GDPPR       |
+| 7       | A         | 1975-09-01    | 1995-04-14  | HES APC     |
+| 8       | A         | 1975-09-01    | 2024-02-20  | HES APC     |
+| 10      | B         | 1980-10-01    | 2023-12-13  | HES APC     |
+| 11      | B         | 1981-04-11    | 2003-10-11  | HES AE      |
+| 12      | B         | 1980-07-02    | 2015-01-02  | HES AE      |
+| 13      | B         | 1981-03-09    | 2023-09-09  | HES AE      |
+| 14      | A         | 1977-03-01    | 2010-09-01  | HES OP      |
+| 15      | B         | 1982-05-02    | 2004-11-02  | HES OP      |
+
+
+For data of birth we prioritise data source > receny.
+
+Our final individual table for date of birth is **hds_curated_assets__date_of_birth_individual_2024_04_25**:
+
+| ROW_NUM | PERSON_ID | DATE_OF_BIRTH | RECORD_DATE | DATA_SOURCE |
+|---------|-----------|---------------|-------------|-------------|
+| 3       | A         | 1975-09-01    | 2023-08-09  | GDPPR       |
+| 4       | B         | 1980-10-01    | 2022-10-02  | GDPPR       |
 
 
