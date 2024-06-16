@@ -79,6 +79,8 @@ More Labels
 Coming soon
 {: .label .label-yellow }
 
+<span class="label label-red">Labels using HTMLd</span>
+
  
 # Code
 
