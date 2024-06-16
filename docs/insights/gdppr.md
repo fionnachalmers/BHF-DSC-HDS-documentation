@@ -19,6 +19,7 @@ GDPPR = General Practice Extraction Service (GPES) Data for Pandemic Planning an
 
 {: .highlight-title }
 > Table Names
+>
 > &nbsp;
 > **Live table**
 > >
