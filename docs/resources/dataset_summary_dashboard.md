@@ -18,9 +18,11 @@ The dashboard can be used to explore the data dictionaries, data coverage and da
   <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/dashboard.png" alt="Dashboard">
 </a>
 
-**Click below to find out more about the dashboard and how it was built!!**
+**Find out more about the dashboard and how it was built!**
 
-<a href="https://www.youtube.com/watch?v=JpSkY9zMx3w&t=538s" target="_blank">
-  <img src="https://fionnachalmers.github.io/BHF-DSC-HDS-documentation/assets/images/dashboard_webinar.png" alt="Dashboard Webinar YouTube">
-</a>
+<iframe width="420" height="315"
+src=""https://www.youtube.com/watch?v=JpSkY9zMx3w&t=538s">
+</iframe>
+
+
 
