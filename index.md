@@ -82,7 +82,7 @@ It is set up that as soon as a page is edited (via a commit) the site will autom
 
 When you add a new file - make sure to make it a .md file!
 
-We can embed YouTube videos - [see example here]({% link docs/resources/dataset_summary_dashboard.md %})
+We can embed YouTube videos - [see example here]({% link docs/resources/dataset_summary_dashboard.md %}).
 Note that you have to use the code used here but replace the Youtube ID with the one from your video (dont just copy and paste the YouTube HTML).
 
 # Title 1
