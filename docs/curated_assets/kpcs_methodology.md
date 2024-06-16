@@ -109,7 +109,7 @@ We apply data cleaning, data restrictions and finally a selection algorithm to p
 * Additionally for Date of Birth: Date of Birth must be ≤ Record Date
 
 
-**Data Resctictions** <span class="label label-red">Available as function arguments</span>
+**Data Resctictions** <span class="label label-purple">Available as function arguments</span>
 
 * Filter out data sources from the multisource table that are not used in the HDS selection algorithm.
 
