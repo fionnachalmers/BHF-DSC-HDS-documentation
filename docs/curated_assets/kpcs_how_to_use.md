@@ -19,6 +19,7 @@ The archived_on_date is in the format **YYYY_MM_DD**.
 {: .highlight-title }
 > Table Names
 >
+> 
 > **Demographics table**
 > >
 > hds_curated_assets__demographics_archived_on_date
