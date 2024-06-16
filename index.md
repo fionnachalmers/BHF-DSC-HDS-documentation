@@ -41,9 +41,6 @@ permalink: /
 
 
 
-
-
-
 Demo for Health Data Science Team.
 This would be our homepage for our documentation.
 
