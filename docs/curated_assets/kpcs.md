@@ -55,6 +55,3 @@ The curated assets have the following characteristics of interest:
 | In GDPPR               |                     |                   | ✔                  |
 
 
-
-
----
