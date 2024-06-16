@@ -9,7 +9,7 @@ permalink: /docs/data_insights/gdppr
 # GDPPR
 
 <span class="fs-3">
-[Visit the Dataset Summary Dashboard for Data Dictionary, Data Coverage and Data Completeness](https://bhfdatasciencecentre.org/dashboard/){: .btn }
+  <a href="https://github.com/BHFDSC/cvd-covid-tre-dashboard" class="btn" target="_blank">Visit the Dataset Summary Dashboard for Data Dictionary, Data Coverage and Data Completeness</a>
 </span>
 
 ## Description
