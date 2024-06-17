@@ -231,3 +231,15 @@ We randomly select one of the values, create a column that indicates this lsoa w
 
 ### Demographics Table
 
+Finally, we combine the indivdual tables for date of birth, sex, ethnicity and lsoa into one demographics table.
+
+This table also maps lsoa to the appopriate region and IMD (2019) deciles and quintiles, contains a death flag and date of death and a gdppr flag and minimum gdppr record date.
+
+| person_id | date_of_birth | sex_code | sex | ethnicity_raw_code | ethnicity_raw_description                                        | ethnicity_18_code | ethnicity_18_group | ethnicity_5_group      | lsoa      | region          | imd_decile | imd_quintile | death_flag | date_of_death | in_gdppr | gdppr_min_date | date_of_birth_tie_flag | sex_tie_flag | ethnicity_18_tie_flag | ethnicity_5_tie_flag | lsoa_tie_flag |
+|-----------|----------------|----------|-----|---------------------|------------------------------------------------------------------|-------------------|--------------------|------------------------|-----------|-----------------|------------|--------------|------------|---------------|-----------|----------------|------------------------|--------------|-----------------------|----------------------|----------------|
+| A         | 1975-09-01     | 1        | M   | 92461000000105     | Pakistani or British Pakistani - ethnic category 2001 census (finding) | J                 | Pakistani          | Asian or Asian British | E01000001 | City of London  | 9          | 5            | 0          |               | 1         | 2020-01-01     | 0                      | 0            | 0                     | 0                    | 1              |
+| B         | 1980-10-01     | 2        | F   | A                   | British                                                         | A                 | British            | White                  | E01025616 | East Midlands   | 7          | 4            | 0          |               | 1         | 2021-02-02     | 0                      | 0            | 0                     | 0                    | 0              |
+
+
+
+* Note that there is a small group of people who have died but have no date of death.
