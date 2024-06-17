@@ -17,7 +17,7 @@ permalink: /docs/curated_assets/kpcs/methodology
 
 ## Multisource Tables
 
-The multisource tables consolidate a characteristic from multiple data sources. The data sources included so far are below. We will add data sources to this resource when the need arises - sources included so far have been project led. 
+The multisource tables consolidate a characteristic from multiple data sources. The data sources included so far are below. We plan to add data sources to this resource when the need arises - sources included so far have been project led. 
 
 | Data Source    | Date of Birth | Sex | Ethnicity | LSOA | Record Date                  |
 |----------------|-----|-----|-----------|------|------------------------------|
@@ -185,9 +185,7 @@ We apply our selection algorithm to the records remaining below:
 | 15      | B         | 1982-05-02    | 2004-11-02  | HES OP      |
 
 
-For data of birth we prioritise data source > receny.
-
-Our final individual table for date of birth is **hds_curated_assets__date_of_birth_individual_2024_04_25**:
+For date of birth we prioritise data source > receny thus our final individual table for date of birth is **hds_curated_assets__date_of_birth_individual_2024_04_25**:
 
 | ROW_NUM | PERSON_ID | DATE_OF_BIRTH | RECORD_DATE | DATA_SOURCE |
 |---------|-----------|---------------|-------------|-------------|
@@ -197,10 +195,39 @@ Our final individual table for date of birth is **hds_curated_assets__date_of_bi
 
 ### Ties
 
+Conflicts can occur at the same record date at data sources that have the same priority index.
+
+To maintain the one row per person requirement:
+
+* ties are flagged
+  
+* all ties are pulled into an array
+  
+* one record is randomly selected
+
+### Example
+
+The following LSOA's were found for Person A as at the most recent record date available for that person:
+
+| person_id | lsoa      | record_date | data_source |
+|-----------|-----------|-------------|-------------|
+| A         | E01000001 | 2020-05-18  | GDPPR       |
+| A         | E01000002 | 2020-05-18  | GDPPR       |
 
 
+We randomly select one of the values, create a column that indicates this lsoa was picked from a conflict and retain the original conflicting lsoa's in an array.
 
+| person_id | lsoa      | record_date | data_source | lsoa_tie_flag | lsoa_tie_values      |
+|-----------|-----------|-------------|-------------|----------------|----------------------|
+| A         | E01000002 | 2020-05-18  | GDPPR       | 1             | [E01000001, E01000002] |
+
+
+{: .warning-title }
+> Decision to be made
+>
+> Ties affect a very small % of persons once the selection algorithm has been applied. You should decide how you want to proceed with these. The random selection could be carried forward, the tie set to NULL or your own algorithm applied to select an appropriate value.
 
 ---
 
 ### Demographics Table
+
