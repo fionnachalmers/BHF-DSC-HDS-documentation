@@ -59,7 +59,7 @@ I've added some custom css to bring the template in line with the brand colours.
 This has all been built using <a href="https://github.com/fionnachalmers/BHF-DSC-HDS-documentation" target="_blank">this repo</a>.
 
 
-Once we have some more documentation we can move our site over to **https://github.com/BHFDSC/documentation**.
+Once we have some more documentation we can move our site over to **https://BHFDSC.github.io/documentation/**.
 
 Adding links to sections of the GitHub page:  E.g. Jump to [Methodology]({% link docs/curated_assets/kpcs_methodology.md %}) for more details.
 
