@@ -223,7 +223,7 @@ We randomly select one of the values, create a column that indicates this lsoa w
 
 
 {: .warning-title }
-> Decision to be made
+> Need to know
 >
 > Ties affect a very small % of persons once the selection algorithm has been applied. You should decide how you want to proceed with these. The random selection could be carried forward, the tie set to NULL or your own algorithm applied to select an appropriate value.
 
