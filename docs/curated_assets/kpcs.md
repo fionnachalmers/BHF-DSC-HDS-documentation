@@ -36,7 +36,7 @@ The above functions are run at a population wide level which is a lot of compute
 
 * **Demographics table** - brings together the individual tables that were curated for each characteristic into one demographics table. 
 
-
+CHANGE 
 ## Characteristics of Interest
 
 The curated assets have the following characteristics of interest:
